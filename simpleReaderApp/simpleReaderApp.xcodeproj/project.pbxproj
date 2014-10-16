@@ -14,6 +14,7 @@
 		27380B8E19F02FD8007B08B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27380B8D19F02FD8007B08B1 /* Images.xcassets */; };
 		27380B9119F02FD8007B08B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27380B8F19F02FD8007B08B1 /* LaunchScreen.xib */; };
 		27380B9D19F02FD8007B08B1 /* simpleReaderAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27380B9C19F02FD8007B08B1 /* simpleReaderAppTests.m */; };
+		27380BA819F031A2007B08B1 /* EADSessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27380BA719F031A2007B08B1 /* EADSessionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		27380B9619F02FD8007B08B1 /* simpleReaderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleReaderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27380B9B19F02FD8007B08B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27380B9C19F02FD8007B08B1 /* simpleReaderAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleReaderAppTests.m; sourceTree = "<group>"; };
+		27380BA619F031A2007B08B1 /* EADSessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EADSessionController.h; sourceTree = "<group>"; };
+		27380BA719F031A2007B08B1 /* EADSessionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EADSessionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		27380B7F19F02FD8007B08B1 /* simpleReaderApp */ = {
 			isa = PBXGroup;
 			children = (
+				27380BA619F031A2007B08B1 /* EADSessionController.h */,
+				27380BA719F031A2007B08B1 /* EADSessionController.m */,
 				27380B8419F02FD8007B08B1 /* AppDelegate.h */,
 				27380B8519F02FD8007B08B1 /* AppDelegate.m */,
 				27380B8719F02FD8007B08B1 /* ViewController.h */,
@@ -223,6 +228,7 @@
 				27380B8919F02FD8007B08B1 /* ViewController.m in Sources */,
 				27380B8619F02FD8007B08B1 /* AppDelegate.m in Sources */,
 				27380B8319F02FD8007B08B1 /* main.m in Sources */,
+				27380BA819F031A2007B08B1 /* EADSessionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
