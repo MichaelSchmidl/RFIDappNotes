@@ -41,8 +41,8 @@
 		27380B9619F02FD8007B08B1 /* simpleReaderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleReaderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27380B9B19F02FD8007B08B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27380B9C19F02FD8007B08B1 /* simpleReaderAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleReaderAppTests.m; sourceTree = "<group>"; };
-		27380BA619F031A2007B08B1 /* EADSessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EADSessionController.h; sourceTree = "<group>"; };
-		27380BA719F031A2007B08B1 /* EADSessionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EADSessionController.m; sourceTree = "<group>"; };
+		27380BA619F031A2007B08B1 /* EADSessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EADSessionController.h; path = simpleReaderApp/EADSessionController.h; sourceTree = "<group>"; };
+		27380BA719F031A2007B08B1 /* EADSessionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EADSessionController.m; path = simpleReaderApp/EADSessionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +66,8 @@
 		27380B7419F02FD8007B08B1 = {
 			isa = PBXGroup;
 			children = (
+				27380BA619F031A2007B08B1 /* EADSessionController.h */,
+				27380BA719F031A2007B08B1 /* EADSessionController.m */,
 				27380B7F19F02FD8007B08B1 /* simpleReaderApp */,
 				27380B9919F02FD8007B08B1 /* simpleReaderAppTests */,
 				27380B7E19F02FD8007B08B1 /* Products */,
@@ -84,8 +86,6 @@
 		27380B7F19F02FD8007B08B1 /* simpleReaderApp */ = {
 			isa = PBXGroup;
 			children = (
-				27380BA619F031A2007B08B1 /* EADSessionController.h */,
-				27380BA719F031A2007B08B1 /* EADSessionController.m */,
 				27380B8419F02FD8007B08B1 /* AppDelegate.h */,
 				27380B8519F02FD8007B08B1 /* AppDelegate.m */,
 				27380B8719F02FD8007B08B1 /* ViewController.h */,
